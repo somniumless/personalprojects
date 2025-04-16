@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>perros</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fascinate+Inline&family=Poetsen+One&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        
+        <h2 id="tituloPrincipal">pagina de perros </h2>
+        <h3>imagenes de perros</h3>
+        
+        <p>haz clic <a href="https://www.youtube.com" target="_blank" > aqui </a> para ver videos de perros</p>
+        <a href="https://co.pinterest.com/search/pins/?q=perros&rs=typed" target="_blank"><img src="5cb1f9400891d9da5a4926d7814bd1b89127ecba-1300x867.jpg" class="imagenDeperro" alt="perros golosos"></a>
+
+        <hr>
+        <h2>listas de cosas que los perros aman y odian</h2>
+        <div class="contenedor-listas">
+            <h2>cosas que los perros aman </h2>
+            <ul >
+                <li>ser <strong>perros</strong> </li>
+                <li>comer </li>
+                <li>dormir</li>
+                <li>el clasismo</li>
+            </ul>
+            <img id="perro2" src="perroFeliz.jpeg" alt="perroFelizxd" >
+            <h2>cosas que los perros odian</h2>
+            <ol >
+                <li>el comunismo</li>
+                <li> <s>petro</s> </li>
+                <li>bañarse</li>
+                <li> <em>el ministerio de la igualdad</em> </li>
+            </ol>
+           
+        </div>
+        <img src="gatoAleta.jpg" alt="gatoAleta" class="borde-redondeados">
+        <!-- texto y boton enviar -->
+        <hr>
+        <form action="/enviar-respuesta">
+            <!-- input radio -->
+            <label for="interior">
+                <input id="interior" type="radio" value="interior" name="interiorExterior" checked>interior
+            </label>
+            <br>
+            <label for="exterior">
+                <input id="exterior" type="radio" value="exterior" name="interiorExterior" >exterior
+            </label>
+            <br>
+
+            <!-- casillas de verificacion -->
+            <label for="cariñoso">
+                <input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad"checked>cariñoso
+            </label>
+            <br>
+            <label for="perezoso">
+                <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">perezoso
+            </label>
+            <br>
+            <label for="alergico">
+                <input id="alergico" type="checkbox" value="alergico" name="personalidad">alergico
+            </label>
+            <br>
+            <!-- barra de texto , placeholder y required -->
+            <input type="text" placeholder="url de lo que usted quiera" required>
+            <br>
+            <button type="submit">enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p><small>sin derechos de autor- <a href="https://www.youtube.com" target="_blank">continua aqui :) </a></small></p>
+    </footer>
+</body>
+</html>
